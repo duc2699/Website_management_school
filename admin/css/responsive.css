@@ -1,0 +1,68 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .courses-container {
+        padding: 10px;
+    }
+
+    .course {
+        margin: 0;
+        display: block;
+    }
+
+    .course-preview {
+        width: unset;
+        height: unset;
+    }
+
+    .course-preview {
+        width: unset;
+        height: unset;
+    }
+
+    .progress-container {
+        position: unset;
+        text-align: center;
+        width: unset;
+    }
+
+    .wrapper__desc-card {
+        word-break: break-all;
+    }
+
+    .wrapper__desc-card h6 {
+        margin-top: 20px;
+    }
+
+    .wrapper__sidebar-all {
+        min-height: 0px !important;
+    }
+
+    .res__sidebar {
+        display: block !important;
+    }
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+.res__sidebar {
+    display: none;
+}
